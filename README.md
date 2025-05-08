@@ -9,6 +9,8 @@ Este repositório reúne o material técnico, imagens, códigos e metodologia do
 
 O projeto teve como objetivo principal introduzir estudantes do ensino fundamental aos fundamentos da robótica, eletrônica e programação através da construção colaborativa de **robôs seguidores de linha** usando Arduino.
 
+![2](https://github.com/user-attachments/assets/d84a82a1-3afd-40b1-97d0-a3bf9bdd820f)
+
 ---
 
 ## Tecnologias Utilizadas
@@ -35,7 +37,7 @@ O robô possui **dois sensores IR** voltados para o chão. Com base na cor lida 
 
 ### Diagrama Lógico
 
-![Mapa mental da lógica](docs/3.png)
+![3](https://github.com/user-attachments/assets/16520bd6-1b1d-46d4-982b-8a77321a0ccd)
 
 ---
 
@@ -43,7 +45,7 @@ O robô possui **dois sensores IR** voltados para o chão. Com base na cor lida 
 
 Todos os componentes foram conectados conforme o diagrama abaixo:
 
-![Esquema de montagem](docs/4.png)
+![4](https://github.com/user-attachments/assets/3d1a568e-30f3-45e6-962a-75ef838d8f88)
 
 ---
 
