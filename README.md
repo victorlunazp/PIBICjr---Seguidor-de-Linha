@@ -1,13 +1,20 @@
 # PIBICjr---Seguidor-de-Linha
-Projeto de Iniciação Cientifica Junior - EMEF Edna de Mattos Ciqueira Gáudio
+Projeto de Iniciação Cientifica Junior - EMEF Edna de Mattos Ciqueira Gáudio - Prof. Orientador Victor de Luna Zottis Pierobom
 
 # 🤖 Programando Ideias: Robô Seguidor de Linha com Arduino
 
-Este repositório reúne o material técnico, imagens, códigos e metodologia do projeto **Programando Ideias**, desenvolvido com alunos da rede pública de Vitória/ES no contexto do PIBICjr (CNPq/IFES).
+Este repositório reúne o material técnico, imagens, códigos e metodologia do projeto **Programando Ideias**, desenvolvido com alunos da rede pública de Vitória/ES no contexto do PIBICjr (CDTIV - Vitória/ES).
 
 ## Objetivo
 
 O projeto teve como objetivo principal introduzir estudantes do ensino fundamental aos fundamentos da robótica, eletrônica e programação através da construção colaborativa de **robôs seguidores de linha** usando Arduino.
+
+- Introdução à lógica de programação
+- Eletrônica básica com Arduino
+- Sensores infravermelhos (IR)
+- Controle de motores com ponte H (L298N)
+- Pensamento computacional e resolução de problemas
+- Criatividade e personalização de projetos
 
 ![2](https://github.com/user-attachments/assets/d84a82a1-3afd-40b1-97d0-a3bf9bdd820f)
 
@@ -19,7 +26,7 @@ O projeto teve como objetivo principal introduzir estudantes do ensino fundament
 - **L298N**: Ponte H para controle bidirecional dos motores.
 - **Motores DC com rodas**: Proporcionam o movimento.
 - **Sensores infravermelhos (IR)**: Detectam a linha preta sobre fundo branco.
-- **Scratch para Arduino / AppInventor**: Usado em etapas introdutórias.
+- **Chassi 2WD**: Chassi com suporte para duas rodas.
 - **C++ para Arduino**: Linguagem usada no código final do robô.
 
 ---
@@ -51,7 +58,15 @@ Todos os componentes foram conectados conforme o diagrama abaixo:
 
 ## Código Fonte (Arduino/C++)
 
-O controle dos motores foi encapsulado em uma classe chamada `DCMotor`. Sensores IR são lidos nos pinos 7 e 8. A decisão do comportamento é feita no `loop()`, baseado nas leituras dos sensores.
+A lógica de controle foi implementada em C++ no Arduino IDE. O projeto conta com uma classe `DCMotor` que abstrai o controle de cada motor, com métodos para:
+
+- `Pinout()` – definição dos pinos de controle
+- `Speed()` – ajuste da velocidade
+- `Forward()` – movimentação para frente
+- `Backward()` – movimentação para trás (não utilizada neste projeto)
+- `Stop()` – parada do motor
+
+Sensores IR são lidos nos pinos 7 e 8. A decisão do comportamento é feita no `loop()`, baseado nas leituras dos sensores, definindo qual motor deve parar ou continuar girando, promovendo um movimento de correção quando o robô sai da linha. 
 
 ### Trecho principal:
 
@@ -65,3 +80,12 @@ if (estadoSensor1 == 1 && estadoSensor2 == 1) {
 } else {
   Motor1.Stop(); Motor2.Stop(); // Robô perdido
 }
+
+## Impacto Educacional
+
+- Oficinas realizadas com dezenas de alunos da rede pública
+- Participação em eventos como a **INOVAVIX**
+- Fortalecimento da aprendizagem prática em robótica e tecnologia
+- Desenvolvimento de habilidades como criatividade, colaboração, pensamento crítico e resolução de problemas
+
+
