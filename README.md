@@ -78,7 +78,7 @@ if (estadoSensor1 == 1 && estadoSensor2 == 1) {
 } else {
   Motor1.Stop(); Motor2.Stop(); // Robô perdido
 }
-```cpp
+```
 
 ## Impacto Educacional
 
