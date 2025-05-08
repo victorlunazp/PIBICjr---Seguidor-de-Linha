@@ -45,7 +45,7 @@ O robô possui **dois sensores IR** voltados para o chão. Com base na cor lida 
 
 Todos os componentes foram conectados conforme o diagrama abaixo:
 
-![4](https://github.com/user-attachments/assets/3d1a568e-30f3-45e6-962a-75ef838d8f88)
+![image](https://github.com/user-attachments/assets/185cf567-9c3e-46d3-b07e-8e38c925114f)
 
 ---
 
