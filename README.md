@@ -107,6 +107,6 @@ Este projeto foi idealizado e conduzido com a colaboração de uma equipe dedica
 - Gabriel Amaral  
 - Paulo Henrique A. de Oliveira
 
-Agradecemos a todos os envolvidos pelo entusiasmo, comprometimento e criatividade ao longo de todas as etapas do projeto. Cada robô construído representa não apenas uma conquista técnica, mas também o despertar de novas possibilidades para o futuro desses jovens.
+Agradeço a todos os envolvidos pelo entusiasmo, comprometimento e criatividade ao longo de todas as etapas do projeto. Cada robô construído representa não apenas uma conquista técnica, mas também o despertar de novas possibilidades para o futuro desses jovens.
 
 
