@@ -1,5 +1,5 @@
 # PIBICjr---Seguidor-de-Linha
-Projeto de Iniciação Cientifica Junior - EMEF Edna de Mattos Ciqueira Gáudio - Prof. Orientador Victor de Luna Zottis Pierobom
+Projeto de Iniciação Cientifica Junior - EMEF Edna de Mattos Ciqueira Gáudio
 
 # 🤖 Programando Ideias: Robô Seguidor de Linha com Arduino
 
@@ -80,6 +80,7 @@ if (estadoSensor1 == 1 && estadoSensor2 == 1) {
 } else {
   Motor1.Stop(); Motor2.Stop(); // Robô perdido
 }
+```cpp
 
 ## Impacto Educacional
 
@@ -87,5 +88,27 @@ if (estadoSensor1 == 1 && estadoSensor2 == 1) {
 - Participação em eventos como a **INOVAVIX**
 - Fortalecimento da aprendizagem prática em robótica e tecnologia
 - Desenvolvimento de habilidades como criatividade, colaboração, pensamento crítico e resolução de problemas
+
+## Equipe do Projeto
+
+Este projeto foi idealizado e conduzido com a colaboração de uma equipe dedicada de estudantes e educadores que acreditam no poder transformador da educação prática e acessível:
+
+**Orientador:**  
+- Prof. Victor de Luna Zottis Pierobom
+
+**Equipe de Alunos Bolsistas (PIBIC-Jr):**  
+- Ana Luiza Amorim  
+- Katheyne Gabriele S. Amaral  
+- Kevin Correa Amorim  
+- Mariana Valentim Meireles  
+- Nicolas Oliveira Venceslau
+
+**Equipe Voluntária:**  
+- Ana Isabela da Silva  
+- Arthur Nascimento  
+- Gabriel Amaral  
+- Paulo Henrique A. de Oliveira
+
+Agradecemos a todos os envolvidos pelo entusiasmo, comprometimento e criatividade ao longo de todas as etapas do projeto. Cada robô construído representa não apenas uma conquista técnica, mas também o despertar de novas possibilidades para o futuro desses jovens.
 
 
