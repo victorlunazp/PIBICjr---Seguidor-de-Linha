@@ -16,8 +16,6 @@ O projeto teve como objetivo principal introduzir estudantes do ensino fundament
 - Pensamento computacional e resolução de problemas
 - Criatividade e personalização de projetos
 
-![2](https://github.com/user-attachments/assets/d84a82a1-3afd-40b1-97d0-a3bf9bdd820f)
-
 ---
 
 ## Tecnologias Utilizadas
