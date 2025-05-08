@@ -1,7 +1,4 @@
-# PIBICjr---Seguidor-de-Linha
-Projeto de Iniciação Cientifica Junior - EMEF Edna de Mattos Ciqueira Gáudio
-
-# 🤖 Programando ideias: A idealização, prototipagem e desenvolvimento de um robô autônomo por alunos da rede pública de Vitória.
+## 🤖 Programando ideias: A idealização, prototipagem e desenvolvimento de um robô autônomo por alunos da rede pública de Vitória.
 
 Este repositório reúne o material técnico, imagens, códigos e metodologia do projeto **Programando Ideias**, desenvolvido com alunos da rede pública de Vitória/ES no contexto do PIBICjr (CDTIV - Vitória/ES).
 
