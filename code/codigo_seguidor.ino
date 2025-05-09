@@ -49,38 +49,19 @@ void loop(){
 bool estadoSensor1 = digitalRead(pinSensor1);
 bool estadoSensor2 = digitalRead(pinSensor2);
 if (estadoSensor1 == 1 & estadoSensor2 == 1) { // Condição onde os dois sensores estão sobre a linha.
-  Motor1.Forward(); // Comando para o motor ir para frente
+  Motor1.Forward(); // Comando para os motores irem para frente
   Motor2.Forward();
-  // Serial.println("sensor 1: Preto");
-  // Serial.println("sensor 2: Preto");
-  // Serial.println(estadoSensor1);
-  // Serial.println(estadoSensor2);
-  // digitalWrite(M1,HIGH);
-  // digitalWrite(M2,HIGH);
 }
 if (estadoSensor1 == 1 & estadoSensor2 == 0){ // Condição onde apenas o sensor esquerdo está sobre a linha.
-  Motor1.Stop(); // Comando para o motor parar
-  Motor2.Forward(); // Comando para o motor ir para frente
-  // Serial.println("sensor 1: Preto");
-  // Serial.println("sensor 2: Branco");
-  // digitalWrite(M1,LOW);
-  // digitalWrite(M2,HIGH);
+  Motor1.Stop(); // Comando para o motor esquerdo parar
+  Motor2.Forward(); 
 }
 if (estadoSensor1 == 0 & estadoSensor2 == 1) { // Condição onde apenas o sensor direito está sobre a linha.
-  Motor1.Forward(); // Comando para o motor ir para frente
-  Motor2.Stop(); // Comando para o motor parar
-  // Serial.println("sensor 1: Branco");
-  // Serial.println("sensor 2: Preto");
-  // digitalWrite(M1,HIGH);
-  // digitalWrite(M2,LOW);
+  Motor1.Forward(); 
+  Motor2.Stop(); // Comando para o motor direito parar
 }
 else if (estadoSensor1 == 0 & estadoSensor2 == 0) {
-  Motor1.Stop(); // Comando para o motor parar
+  Motor1.Stop(); // Comando para os motores pararem
   Motor2.Stop();
-  // Serial.println("ROBÔ PERDIDO");
-  // digitalWrite(M1,LOW);
-  // digitalWrite(M2,LOW);
-  // Serial.println(estadoSensor1);
-  // Serial.println(estadoSensor2);
 }
 }
