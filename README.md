@@ -106,4 +106,6 @@ Este projeto foi idealizado e conduzido com a colaboração de uma equipe dedica
 
 Agradeço a todos os envolvidos pelo entusiasmo, comprometimento e criatividade ao longo de todas as etapas do projeto. Cada robô construído representa não apenas uma conquista técnica, mas também o despertar de novas possibilidades para o futuro desses jovens.
 
+**Reportagem Prefeitura Municipal de Vitória:**
 
+https://vitoria.es.gov.br/noticia/pibic-jr-2023-programa-para-estudantes-seleciona-10-projetos-47750
